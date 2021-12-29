@@ -6,7 +6,6 @@
   --dark-background-color: #2f303a;
   --light-backgroung-color: #f5f4fa;
   --button-hover-color: #188ce8;
-  --light-background-color: #c4c4c4;
   --primary-icon-color: #afb1b8;
 }
 
@@ -69,8 +68,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-black-color);
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
 }
 
 .logo-web {
@@ -132,11 +129,9 @@ body {
 
 .contact-list {
   display: flex;
-  margin-left: auto;
-}
-
-.contact-icon {
   justify-content: center;
+  align-items: center;
+  margin-left: auto;
 }
 
 .contact-item:not(:last-child) {
@@ -235,6 +230,17 @@ body {
 .features-icon {
   width: 70px;
   height: 70px;
+}
+
+.features-icon-background {
+  background-color: var(--light-backgroung-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Чем мы занимаемся и Наша команда */
