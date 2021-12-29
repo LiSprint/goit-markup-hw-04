@@ -7,6 +7,7 @@
   --light-backgroung-color: #f5f4fa;
   --button-hover-color: #188ce8;
   --light-background-color: #c4c4c4;
+  --primary-icon-color: #afb1b8;
 }
 
 .list {
@@ -134,6 +135,10 @@ body {
   margin-left: auto;
 }
 
+.contact-icon {
+  justify-content: center;
+}
+
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -227,6 +232,11 @@ body {
   margin-bottom: 0; */
 }
 
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
 /* Чем мы занимаемся и Наша команда */
 
 .services {
@@ -294,11 +304,90 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--primary-text-color);
+  margin-bottom: 16px;
 }
 
 .team-description {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-item + .team-social-item {
+  margin-left: 10px;
+}
+
+.team-social-link {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--primary-icon-color);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.team-social-icon {
+  height: 20px;
+  width: 20px;
+  fill: currentColor;
+}
+
+/* Постоянные клиенты */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-header {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-black-color);
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-icon-color);
+  border: 1px solid var(--primary-icon-color);
+  border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-icon {
+  height: 60px;
+  width: 106px;
+  fill: currentColor;
 }
 
 /* Футер */
