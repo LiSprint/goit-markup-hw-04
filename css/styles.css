@@ -104,7 +104,7 @@ body {
 }
 
 .contact-link {
-  display: block;
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -129,13 +129,17 @@ body {
 
 .contact-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: auto;
 }
 
+.contact-icon-envelope,
+.contact-icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contact-item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .nav {
@@ -351,10 +355,10 @@ body {
 
 /* Постоянные клиенты */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .clients-header {
   font-size: 36px;
@@ -431,6 +435,54 @@ body {
 .footer-phone:hover,
 .footer-phone:focus {
   color: var(--primary-white-color);
+}
+
+.footer-join {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  font-size: inherit;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-white-color);
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-content {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-address-section {
+  margin-right: 70px;
 }
 
 /* Фильтр и примеры работ */
