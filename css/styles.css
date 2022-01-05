@@ -227,13 +227,6 @@ body {
 
 .features-item-text {
   line-height: 1.71;
-  /* margin-top: 0;
-  margin-bottom: 0; */
-}
-
-.features-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .features-icon-background {
@@ -348,8 +341,6 @@ body {
 }
 
 .team-social-icon {
-  height: 20px;
-  width: 20px;
   fill: currentColor;
 }
 
@@ -395,8 +386,6 @@ body {
 }
 
 .clients-icon {
-  height: 60px;
-  width: 106px;
   fill: currentColor;
 }
 
@@ -447,8 +436,6 @@ body {
 }
 
 .footer-social-icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
